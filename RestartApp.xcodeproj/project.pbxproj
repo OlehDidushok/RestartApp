@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE8FC4872C0B48F800B116A9 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8FC4862C0B48F800B116A9 /* AudioPlayer.swift */; };
 		CEDB48BE2B5B0DAC00E05C33 /* RestartAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDB48BD2B5B0DAC00E05C33 /* RestartAppApp.swift */; };
 		CEDB48C02B5B0DAC00E05C33 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDB48BF2B5B0DAC00E05C33 /* ContentView.swift */; };
 		CEDB48C22B5B0DAE00E05C33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEDB48C12B5B0DAE00E05C33 /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE8FC4862C0B48F800B116A9 /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
 		CEDB48BA2B5B0DAC00E05C33 /* RestartApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RestartApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEDB48BD2B5B0DAC00E05C33 /* RestartAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestartAppApp.swift; sourceTree = "<group>"; };
 		CEDB48BF2B5B0DAC00E05C33 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -43,6 +45,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE8FC4852C0B48CE00B116A9 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				CE8FC4862C0B48F800B116A9 /* AudioPlayer.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		CEDB48B12B5B0DAC00E05C33 = {
 			isa = PBXGroup;
 			children = (
@@ -62,9 +72,9 @@
 		CEDB48BC2B5B0DAC00E05C33 /* RestartApp */ = {
 			isa = PBXGroup;
 			children = (
+				CE8FC4852C0B48CE00B116A9 /* Utilities */,
 				CEE75F5F2C07928400217E44 /* Views */,
 				CEDB48D32B5B130E00E05C33 /* Info.plist */,
-				CEDB48D22B5B105400E05C33 /* Utilities */,
 				CEDB48CF2B5B0EA900E05C33 /* Sounds */,
 				CEDB48BD2B5B0DAC00E05C33 /* RestartAppApp.swift */,
 				CEDB48D02B5B102C00E05C33 /* Screens */,
@@ -99,13 +109,6 @@
 				CEDB48D62B5B13A200E05C33 /* HomeView.swift */,
 			);
 			path = Screens;
-			sourceTree = "<group>";
-		};
-		CEDB48D22B5B105400E05C33 /* Utilities */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Utilities;
 			sourceTree = "<group>";
 		};
 		CEE75F5F2C07928400217E44 /* Views */ = {
@@ -193,6 +196,7 @@
 				CEDB48D72B5B13A200E05C33 /* HomeView.swift in Sources */,
 				CEDB48C02B5B0DAC00E05C33 /* ContentView.swift in Sources */,
 				CEDB48BE2B5B0DAC00E05C33 /* RestartAppApp.swift in Sources */,
+				CE8FC4872C0B48F800B116A9 /* AudioPlayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
