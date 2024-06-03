@@ -15,6 +15,7 @@ struct ContentView: View {
                 OnboardingView()
             } else {
                 HomeView()
+                
             }
         }
     }
